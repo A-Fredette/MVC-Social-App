@@ -13,7 +13,6 @@
             require_once '../app/models/' . $model . 'php';
 
             //Instantiate
-
             return new $model();
         }
 

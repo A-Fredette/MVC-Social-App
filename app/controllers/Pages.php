@@ -8,11 +8,11 @@ class Pages extends Controller {
 
     }
 
-    public function index() {
-        $this->view('hello');
+    public function homepage() {
+        $this->view('homepage', ['title' => 'Welcome']);
     }
 
-    public function about($id) {
-        echo 'This is about method with param ' . $id;
+    public function about() {
+        $this->view('about');
     }
 }

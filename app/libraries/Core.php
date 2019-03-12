@@ -5,8 +5,8 @@
    * URL FORMAT - /controller/method/params
    */
   class Core {
-    protected $currentController = 'Pages'; //Default controller page to be loaded
-    protected $currentMethod = 'index';
+    protected $currentController = 'Pages'; //Default controller page to be loaded (URL 1st param)
+    protected $currentMethod = 'homepage'; //Default method of the controller to be called (URL 2nd param)
     protected $params = [];
 
     public function __construct() {

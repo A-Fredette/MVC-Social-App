@@ -1,5 +1,5 @@
 <?php
-  require_once '../app/bootstrap.php';
+  require_once '../app/bootstrap.php'; // All of thee required statements for the App are stored in bootstrap
 
-  // Init Core Library
+  // Initialize / Instantiate Core
   $init = new Core;
